@@ -1,5 +1,6 @@
 ﻿@charset "utf-8";
 /* -- generic styles ------------------------*/
+
 div, h1, h2, h3, h4, h5, h6, p, address, ul, ol, li
 {
 	margin: 0px;
@@ -144,6 +145,7 @@ body
 	width: 480px;
 	float: left;
 }
+
 #mainContent h1
 {
 	font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
@@ -586,6 +588,64 @@ body
 	padding-bottom: 20px;
 	width: 395px;
 	height: 150px;
+}
+
+/* Main */
+
+#main
+{
+	margin: 0;
+	padding: 0;
+	width: 480px;
+	float: left;
+	height: 700px;
+
+}
+
+.mainh1
+{
+	font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #1B9D95;
+	margin: .6em 0 .4em 0;
+	padding-left: 20px;
+}
+.mainp
+{
+	font-family: Tahoma, Georgia, "Times New Roman" , Times, serif;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	color: #000;
+	margin-left: 20px;
+	margin-bottom: 1.4em;
+}
+.mainh4
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #666;
+	font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+	margin-left: 20px;
+	margin-bottom: -.2em;
+}
+
+.mainh2
+{
+	font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #324E40;
+	margin-bottom: 0.4em;
+	margin-left: 20px;
+}
+
+.mainh3
+{
+	font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #324E40;
+	margin-bottom: 0.4em;
+	margin-left: 20px;
 }
 
 /* ---------- SINGLE COLUMN LAYOUT ---------*/
